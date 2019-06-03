@@ -3,7 +3,7 @@ $(document).ready(function(){
         let title_item= "<p class=\"title\"><a  href=\"#\">首页 /</a>"+title[i]+"</p>" + "<div class=\"row prd\"></div>";
         $(".main-right").append(title_item);
         for (let j=0;j<prduction[i].length;j++) {
-            let prd = "<div class=\"col-sm-4 col-md-4 ol-xs-12\">\n" +
+            let prd = "<div class=\"col-sm-4 col-md-4 col-xs-12\">\n" +
                 "       <div class=\"item thumbnail\">\n" +
                 "           <img src=\""+prduction[i][j].src+"\" alt=\"\">\n" +
                 "           <h1>"+prduction[i][j].name+"</h1>\n" +
