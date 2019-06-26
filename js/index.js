@@ -5,7 +5,7 @@ $(document).ready(function(){
         for (let j=0;j<prduction[i].length;j++) {
             let prd = "<div class=\"col-sm-4 col-md-4 col-xs-12\">\n" +
                 "       <div class=\"item thumbnail\">\n" +
-                "           <img src=\""+prduction[i][j].src+"\" alt=\"\">\n" +
+                "           <a href=\"#\"><img src=\""+prduction[i][j].src+"\" alt=\"\"></a>\n" +
                 "           <h1>"+prduction[i][j].name+"</h1>\n" +
                 "           <h2>"+prduction[i][j].price+"</h2>\n" +
                 "           <p><a href=\"#\">"+prduction[i][j].detail1+"</a></p>\n" +
